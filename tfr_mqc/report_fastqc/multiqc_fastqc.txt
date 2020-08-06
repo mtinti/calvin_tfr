@@ -1,0 +1,25 @@
+Sample	Filename	File type	Encoding	Total Sequences	Sequences flagged as poor quality	Sequence length	%GC	total_deduplicated_percentage	avg_sequence_length	basic_statistics	per_base_sequence_quality	per_sequence_quality_scores	per_base_sequence_content	per_sequence_gc_content	per_base_n_content	sequence_length_distribution	sequence_duplication_levels	overrepresented_sequences	adapter_content
+C1_1	C1_1.fq.gz	Conventional base calls	Illumina 1.5	52201418.0	0.0	100.0	48.0	30.76931933797932	100.0	pass	pass	pass	fail	warn	pass	pass	fail	warn	pass
+C1_2	C1_2.fq.gz	Conventional base calls	Illumina 1.5	52201418.0	0.0	100.0	48.0	32.56729917304913	100.0	pass	pass	pass	fail	warn	pass	pass	fail	warn	pass
+C2_1	C2_1.fq.gz	Conventional base calls	Illumina 1.5	52236236.0	0.0	100.0	48.0	30.054948843110225	100.0	pass	pass	pass	fail	warn	pass	pass	fail	warn	pass
+C2_2	C2_2.fq.gz	Conventional base calls	Illumina 1.5	52236236.0	0.0	100.0	48.0	30.759764067137386	100.0	pass	pass	pass	fail	warn	pass	pass	fail	warn	pass
+C3_1	C3_1.fq.gz	Conventional base calls	Illumina 1.5	52184501.0	0.0	100.0	48.0	29.95345740391821	100.0	pass	pass	pass	fail	warn	pass	pass	fail	warn	pass
+C3_2	C3_2.fq.gz	Conventional base calls	Illumina 1.5	52184501.0	0.0	100.0	48.0	32.14207110769223	100.0	pass	pass	pass	fail	pass	pass	pass	fail	warn	pass
+D1_1	D1_1.fq.gz	Conventional base calls	Illumina 1.5	51119049.0	0.0	100.0	48.0	30.71059869925994	100.0	pass	pass	pass	fail	pass	pass	pass	fail	warn	pass
+D1_2	D1_2.fq.gz	Conventional base calls	Illumina 1.5	51119049.0	0.0	100.0	48.0	32.47612227605446	100.0	pass	pass	pass	fail	pass	pass	pass	fail	warn	pass
+D2_1	D2_1.fq.gz	Conventional base calls	Illumina 1.5	53436812.0	0.0	100.0	48.0	31.05464052530357	100.0	pass	pass	pass	fail	pass	pass	pass	fail	warn	pass
+D2_2	D2_2.fq.gz	Conventional base calls	Illumina 1.5	53436812.0	0.0	100.0	48.0	33.40649605767858	100.0	pass	pass	pass	fail	pass	pass	pass	fail	warn	pass
+D3_1	D3_1.fq.gz	Conventional base calls	Illumina 1.5	52207096.0	0.0	100.0	48.0	30.118151661645182	100.0	pass	pass	pass	fail	pass	pass	pass	fail	warn	pass
+D3_2	D3_2.fq.gz	Conventional base calls	Illumina 1.5	52207096.0	0.0	100.0	48.0	32.20062524482602	100.0	pass	pass	pass	fail	pass	pass	pass	fail	warn	pass
+DF1_1	DF1_1.fq.gz	Conventional base calls	Illumina 1.5	51129292.0	0.0	100.0	48.0	29.95168842916456	100.0	pass	pass	pass	fail	warn	pass	pass	fail	warn	pass
+DF1_2	DF1_2.fq.gz	Conventional base calls	Illumina 1.5	51129292.0	0.0	100.0	48.0	32.28744913957905	100.0	pass	pass	pass	fail	warn	pass	pass	fail	warn	pass
+DF2_1	DF2_1.fq.gz	Conventional base calls	Illumina 1.5	52372920.0	0.0	100.0	48.0	29.930017486981253	100.0	pass	pass	pass	fail	pass	pass	pass	fail	warn	pass
+DF2_2	DF2_2.fq.gz	Conventional base calls	Illumina 1.5	52372920.0	0.0	100.0	48.0	31.307072283455945	100.0	pass	pass	pass	fail	pass	pass	pass	fail	warn	pass
+DF3_1	DF3_1.fq.gz	Conventional base calls	Illumina 1.5	51112586.0	0.0	100.0	48.0	31.200070687120007	100.0	pass	pass	pass	fail	warn	pass	pass	fail	warn	pass
+DF3_2	DF3_2.fq.gz	Conventional base calls	Illumina 1.5	51112586.0	0.0	100.0	48.0	32.864906090389816	100.0	pass	pass	pass	fail	warn	pass	pass	fail	pass	pass
+F1_1	F1_1.fq.gz	Conventional base calls	Illumina 1.5	52207404.0	0.0	100.0	48.0	29.795393697101314	100.0	pass	pass	pass	fail	warn	pass	pass	fail	warn	pass
+F1_2	F1_2.fq.gz	Conventional base calls	Illumina 1.5	52207404.0	0.0	100.0	48.0	31.26273989971328	100.0	pass	pass	pass	fail	warn	pass	pass	fail	warn	pass
+F2_1	F2_1.fq.gz	Conventional base calls	Illumina 1.5	51109609.0	0.0	100.0	48.0	30.347213382327386	100.0	pass	pass	pass	fail	warn	pass	pass	fail	warn	pass
+F2_2	F2_2.fq.gz	Conventional base calls	Illumina 1.5	51109609.0	0.0	100.0	48.0	32.39026714342472	100.0	pass	pass	pass	fail	warn	pass	pass	fail	warn	pass
+F3_1	F3_1.fq.gz	Conventional base calls	Illumina 1.5	52374754.0	0.0	100.0	48.0	31.17144726235514	100.0	pass	pass	pass	fail	warn	pass	pass	fail	warn	pass
+F3_2	F3_2.fq.gz	Conventional base calls	Illumina 1.5	52374754.0	0.0	100.0	48.0	33.02470354371212	100.0	pass	pass	pass	fail	warn	pass	pass	fail	warn	pass

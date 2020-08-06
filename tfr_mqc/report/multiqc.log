@@ -1,0 +1,246 @@
+[2020-08-06 15:40:37,512] multiqc                                            [DEBUG  ]  No MultiQC config found: /cluster/home/mtinti/miniconda3/envs/ritSeq/lib/python3.7/site-packages/multiqc_config.yaml
+[2020-08-06 15:40:37,512] multiqc                                            [DEBUG  ]  No MultiQC config found: /homes/mtinti/.multiqc_config.yaml
+[2020-08-06 15:40:37,515] multiqc                                            [DEBUG  ]  Loading config settings from: multiqc_config.yaml
+[2020-08-06 15:40:37,515] multiqc                                            [DEBUG  ]  New config 'title': TFR RNA-seq
+[2020-08-06 15:40:37,515] multiqc                                            [DEBUG  ]  Added to filename clean extensions: ['_1.*', '_2.*', '_sorted.bam', '_']
+[2020-08-06 15:40:37,515] multiqc                                            [DEBUG  ]  New config 'data_dir_name': tfr_mqc/report
+[2020-08-06 15:40:37,515] multiqc                                            [DEBUG  ]  New config 'output_fn_name': tfr_mqc/report.html
+[2020-08-06 15:40:37,515] multiqc                                            [DEBUG  ]  New config 'fastp': {'fn': '*_fastp.json'}
+[2020-08-06 15:40:37,515] multiqc                                            [DEBUG  ]  New config 'top_modules': ['generalstats', 'fastp', 'bowtie2', 'bamqc', 'picard', 'featurecounts', 'fastq_screen']
+[2020-08-06 15:40:37,518] multiqc                                            [DEBUG  ]  Loading config settings from: multiqc_config.yaml
+[2020-08-06 15:40:37,518] multiqc                                            [DEBUG  ]  New config 'title': TFR RNA-seq
+[2020-08-06 15:40:37,518] multiqc                                            [DEBUG  ]  Added to filename clean extensions: ['_1.*', '_2.*', '_sorted.bam', '_']
+[2020-08-06 15:40:37,518] multiqc                                            [DEBUG  ]  New config 'data_dir_name': tfr_mqc/report
+[2020-08-06 15:40:37,518] multiqc                                            [DEBUG  ]  New config 'output_fn_name': tfr_mqc/report.html
+[2020-08-06 15:40:37,518] multiqc                                            [DEBUG  ]  New config 'fastp': {'fn': '*_fastp.json'}
+[2020-08-06 15:40:37,518] multiqc                                            [DEBUG  ]  New config 'top_modules': ['generalstats', 'fastp', 'bowtie2', 'bamqc', 'picard', 'featurecounts', 'fastq_screen']
+[2020-08-06 15:40:37,518] multiqc                                            [DEBUG  ]  Command used: /homes/mtinti/miniconda3/envs/ritSeq/bin/multiqc C1/res/C1/fastp C2/res/C2/fastp C3/res/C3/fastp D1/res/D1/fastp D2/res/D2/fastp D3/res/D3/fastp DF1/res/DF1/fastp DF2/res/DF2/fastp DF3/res/DF3/fastp F1/res/F1/fastp F2/res/F2/fastp F3/res/F3/fastp C1/res/C1/qualimap C2/res/C2/qualimap C3/res/C3/qualimap D1/res/D1/qualimap D2/res/D2/qualimap D3/res/D3/qualimap DF1/res/DF1/qualimap DF2/res/DF2/qualimap DF3/res/DF3/qualimap F1/res/F1/qualimap F2/res/F2/qualimap F3/res/F3/qualimap C1/res/C1/featureCounts C2/res/C2/featureCounts C3/res/C3/featureCounts D1/res/D1/featureCounts D2/res/D2/featureCounts D3/res/D3/featureCounts DF1/res/DF1/featureCounts DF2/res/DF2/featureCounts DF3/res/DF3/featureCounts F1/res/F1/featureCounts F2/res/F2/featureCounts F3/res/F3/featureCounts C1/res/C1/bowtie C2/res/C2/bowtie C3/res/C3/bowtie D1/res/D1/bowtie D2/res/D2/bowtie D3/res/D3/bowtie DF1/res/DF1/bowtie DF2/res/DF2/bowtie DF3/res/DF3/bowtie F1/res/F1/bowtie F2/res/F2/bowtie F3/res/F3/bowtie C1/res/C1/markduplicates C2/res/C2/markduplicates C3/res/C3/markduplicates D1/res/D1/markduplicates D2/res/D2/markduplicates D3/res/D3/markduplicates DF1/res/DF1/markduplicates DF2/res/DF2/markduplicates DF3/res/DF3/markduplicates F1/res/F1/markduplicates F2/res/F2/markduplicates F3/res/F3/markduplicates C1/res/C1/fastqs C2/res/C2/fastqs C3/res/C3/fastqs D1/res/D1/fastqs D2/res/D2/fastqs D3/res/D3/fastqs DF1/res/DF1/fastqs DF2/res/DF2/fastqs DF3/res/DF3/fastqs F1/res/F1/fastqs F2/res/F2/fastqs F3/res/F3/fastqs --config multiqc_config.yaml -f
+[2020-08-06 15:40:37,641] multiqc                                            [WARNING]  MultiQC Version v1.9 now available!
+[2020-08-06 15:40:37,641] multiqc                                            [INFO   ]  This is MultiQC v1.7
+[2020-08-06 15:40:37,641] multiqc                                            [DEBUG  ]  Command     : /homes/mtinti/miniconda3/envs/ritSeq/bin/multiqc C1/res/C1/fastp C2/res/C2/fastp C3/res/C3/fastp D1/res/D1/fastp D2/res/D2/fastp D3/res/D3/fastp DF1/res/DF1/fastp DF2/res/DF2/fastp DF3/res/DF3/fastp F1/res/F1/fastp F2/res/F2/fastp F3/res/F3/fastp C1/res/C1/qualimap C2/res/C2/qualimap C3/res/C3/qualimap D1/res/D1/qualimap D2/res/D2/qualimap D3/res/D3/qualimap DF1/res/DF1/qualimap DF2/res/DF2/qualimap DF3/res/DF3/qualimap F1/res/F1/qualimap F2/res/F2/qualimap F3/res/F3/qualimap C1/res/C1/featureCounts C2/res/C2/featureCounts C3/res/C3/featureCounts D1/res/D1/featureCounts D2/res/D2/featureCounts D3/res/D3/featureCounts DF1/res/DF1/featureCounts DF2/res/DF2/featureCounts DF3/res/DF3/featureCounts F1/res/F1/featureCounts F2/res/F2/featureCounts F3/res/F3/featureCounts C1/res/C1/bowtie C2/res/C2/bowtie C3/res/C3/bowtie D1/res/D1/bowtie D2/res/D2/bowtie D3/res/D3/bowtie DF1/res/DF1/bowtie DF2/res/DF2/bowtie DF3/res/DF3/bowtie F1/res/F1/bowtie F2/res/F2/bowtie F3/res/F3/bowtie C1/res/C1/markduplicates C2/res/C2/markduplicates C3/res/C3/markduplicates D1/res/D1/markduplicates D2/res/D2/markduplicates D3/res/D3/markduplicates DF1/res/DF1/markduplicates DF2/res/DF2/markduplicates DF3/res/DF3/markduplicates F1/res/F1/markduplicates F2/res/F2/markduplicates F3/res/F3/markduplicates C1/res/C1/fastqs C2/res/C2/fastqs C3/res/C3/fastqs D1/res/D1/fastqs D2/res/D2/fastqs D3/res/D3/fastqs DF1/res/DF1/fastqs DF2/res/DF2/fastqs DF3/res/DF3/fastqs F1/res/F1/fastqs F2/res/F2/fastqs F3/res/F3/fastqs --config multiqc_config.yaml -f
+[2020-08-06 15:40:37,641] multiqc                                            [DEBUG  ]  Working dir : /cluster/majf_lab/mtinti/Calvin/TfrKD
+[2020-08-06 15:40:37,641] multiqc                                            [INFO   ]  Template    : default
+[2020-08-06 15:40:37,641] multiqc                                            [INFO   ]  Report title: TFR RNA-seq
+[2020-08-06 15:40:37,641] multiqc                                            [INFO   ]  Searching 'C1/res/C1/fastp'
+[2020-08-06 15:40:37,641] multiqc                                            [INFO   ]  Searching 'C2/res/C2/fastp'
+[2020-08-06 15:40:37,641] multiqc                                            [INFO   ]  Searching 'C3/res/C3/fastp'
+[2020-08-06 15:40:37,641] multiqc                                            [INFO   ]  Searching 'D1/res/D1/fastp'
+[2020-08-06 15:40:37,641] multiqc                                            [INFO   ]  Searching 'D2/res/D2/fastp'
+[2020-08-06 15:40:37,642] multiqc                                            [INFO   ]  Searching 'D3/res/D3/fastp'
+[2020-08-06 15:40:37,642] multiqc                                            [INFO   ]  Searching 'DF1/res/DF1/fastp'
+[2020-08-06 15:40:37,642] multiqc                                            [INFO   ]  Searching 'DF2/res/DF2/fastp'
+[2020-08-06 15:40:37,642] multiqc                                            [INFO   ]  Searching 'DF3/res/DF3/fastp'
+[2020-08-06 15:40:37,642] multiqc                                            [INFO   ]  Searching 'F1/res/F1/fastp'
+[2020-08-06 15:40:37,642] multiqc                                            [INFO   ]  Searching 'F2/res/F2/fastp'
+[2020-08-06 15:40:37,642] multiqc                                            [INFO   ]  Searching 'F3/res/F3/fastp'
+[2020-08-06 15:40:37,642] multiqc                                            [INFO   ]  Searching 'C1/res/C1/qualimap'
+[2020-08-06 15:40:37,642] multiqc                                            [INFO   ]  Searching 'C2/res/C2/qualimap'
+[2020-08-06 15:40:37,642] multiqc                                            [INFO   ]  Searching 'C3/res/C3/qualimap'
+[2020-08-06 15:40:37,642] multiqc                                            [INFO   ]  Searching 'D1/res/D1/qualimap'
+[2020-08-06 15:40:37,642] multiqc                                            [INFO   ]  Searching 'D2/res/D2/qualimap'
+[2020-08-06 15:40:37,642] multiqc                                            [INFO   ]  Searching 'D3/res/D3/qualimap'
+[2020-08-06 15:40:37,642] multiqc                                            [INFO   ]  Searching 'DF1/res/DF1/qualimap'
+[2020-08-06 15:40:37,642] multiqc                                            [INFO   ]  Searching 'DF2/res/DF2/qualimap'
+[2020-08-06 15:40:37,642] multiqc                                            [INFO   ]  Searching 'DF3/res/DF3/qualimap'
+[2020-08-06 15:40:37,642] multiqc                                            [INFO   ]  Searching 'F1/res/F1/qualimap'
+[2020-08-06 15:40:37,643] multiqc                                            [INFO   ]  Searching 'F2/res/F2/qualimap'
+[2020-08-06 15:40:37,643] multiqc                                            [INFO   ]  Searching 'F3/res/F3/qualimap'
+[2020-08-06 15:40:37,643] multiqc                                            [INFO   ]  Searching 'C1/res/C1/featureCounts'
+[2020-08-06 15:40:37,643] multiqc                                            [INFO   ]  Searching 'C2/res/C2/featureCounts'
+[2020-08-06 15:40:37,643] multiqc                                            [INFO   ]  Searching 'C3/res/C3/featureCounts'
+[2020-08-06 15:40:37,643] multiqc                                            [INFO   ]  Searching 'D1/res/D1/featureCounts'
+[2020-08-06 15:40:37,643] multiqc                                            [INFO   ]  Searching 'D2/res/D2/featureCounts'
+[2020-08-06 15:40:37,643] multiqc                                            [INFO   ]  Searching 'D3/res/D3/featureCounts'
+[2020-08-06 15:40:37,643] multiqc                                            [INFO   ]  Searching 'DF1/res/DF1/featureCounts'
+[2020-08-06 15:40:37,643] multiqc                                            [INFO   ]  Searching 'DF2/res/DF2/featureCounts'
+[2020-08-06 15:40:37,643] multiqc                                            [INFO   ]  Searching 'DF3/res/DF3/featureCounts'
+[2020-08-06 15:40:37,643] multiqc                                            [INFO   ]  Searching 'F1/res/F1/featureCounts'
+[2020-08-06 15:40:37,643] multiqc                                            [INFO   ]  Searching 'F2/res/F2/featureCounts'
+[2020-08-06 15:40:37,643] multiqc                                            [INFO   ]  Searching 'F3/res/F3/featureCounts'
+[2020-08-06 15:40:37,643] multiqc                                            [INFO   ]  Searching 'C1/res/C1/bowtie'
+[2020-08-06 15:40:37,643] multiqc                                            [INFO   ]  Searching 'C2/res/C2/bowtie'
+[2020-08-06 15:40:37,643] multiqc                                            [INFO   ]  Searching 'C3/res/C3/bowtie'
+[2020-08-06 15:40:37,644] multiqc                                            [INFO   ]  Searching 'D1/res/D1/bowtie'
+[2020-08-06 15:40:37,644] multiqc                                            [INFO   ]  Searching 'D2/res/D2/bowtie'
+[2020-08-06 15:40:37,644] multiqc                                            [INFO   ]  Searching 'D3/res/D3/bowtie'
+[2020-08-06 15:40:37,644] multiqc                                            [INFO   ]  Searching 'DF1/res/DF1/bowtie'
+[2020-08-06 15:40:37,644] multiqc                                            [INFO   ]  Searching 'DF2/res/DF2/bowtie'
+[2020-08-06 15:40:37,644] multiqc                                            [INFO   ]  Searching 'DF3/res/DF3/bowtie'
+[2020-08-06 15:40:37,644] multiqc                                            [INFO   ]  Searching 'F1/res/F1/bowtie'
+[2020-08-06 15:40:37,644] multiqc                                            [INFO   ]  Searching 'F2/res/F2/bowtie'
+[2020-08-06 15:40:37,644] multiqc                                            [INFO   ]  Searching 'F3/res/F3/bowtie'
+[2020-08-06 15:40:37,644] multiqc                                            [INFO   ]  Searching 'C1/res/C1/markduplicates'
+[2020-08-06 15:40:37,644] multiqc                                            [INFO   ]  Searching 'C2/res/C2/markduplicates'
+[2020-08-06 15:40:37,644] multiqc                                            [INFO   ]  Searching 'C3/res/C3/markduplicates'
+[2020-08-06 15:40:37,644] multiqc                                            [INFO   ]  Searching 'D1/res/D1/markduplicates'
+[2020-08-06 15:40:37,644] multiqc                                            [INFO   ]  Searching 'D2/res/D2/markduplicates'
+[2020-08-06 15:40:37,644] multiqc                                            [INFO   ]  Searching 'D3/res/D3/markduplicates'
+[2020-08-06 15:40:37,644] multiqc                                            [INFO   ]  Searching 'DF1/res/DF1/markduplicates'
+[2020-08-06 15:40:37,644] multiqc                                            [INFO   ]  Searching 'DF2/res/DF2/markduplicates'
+[2020-08-06 15:40:37,645] multiqc                                            [INFO   ]  Searching 'DF3/res/DF3/markduplicates'
+[2020-08-06 15:40:37,645] multiqc                                            [INFO   ]  Searching 'F1/res/F1/markduplicates'
+[2020-08-06 15:40:37,645] multiqc                                            [INFO   ]  Searching 'F2/res/F2/markduplicates'
+[2020-08-06 15:40:37,645] multiqc                                            [INFO   ]  Searching 'F3/res/F3/markduplicates'
+[2020-08-06 15:40:37,645] multiqc                                            [INFO   ]  Searching 'C1/res/C1/fastqs'
+[2020-08-06 15:40:37,645] multiqc                                            [INFO   ]  Searching 'C2/res/C2/fastqs'
+[2020-08-06 15:40:37,645] multiqc                                            [INFO   ]  Searching 'C3/res/C3/fastqs'
+[2020-08-06 15:40:37,645] multiqc                                            [INFO   ]  Searching 'D1/res/D1/fastqs'
+[2020-08-06 15:40:37,645] multiqc                                            [INFO   ]  Searching 'D2/res/D2/fastqs'
+[2020-08-06 15:40:37,645] multiqc                                            [INFO   ]  Searching 'D3/res/D3/fastqs'
+[2020-08-06 15:40:37,645] multiqc                                            [INFO   ]  Searching 'DF1/res/DF1/fastqs'
+[2020-08-06 15:40:37,645] multiqc                                            [INFO   ]  Searching 'DF2/res/DF2/fastqs'
+[2020-08-06 15:40:37,645] multiqc                                            [INFO   ]  Searching 'DF3/res/DF3/fastqs'
+[2020-08-06 15:40:37,645] multiqc                                            [INFO   ]  Searching 'F1/res/F1/fastqs'
+[2020-08-06 15:40:37,645] multiqc                                            [INFO   ]  Searching 'F2/res/F2/fastqs'
+[2020-08-06 15:40:37,645] multiqc                                            [INFO   ]  Searching 'F3/res/F3/fastqs'
+[2020-08-06 15:40:37,646] multiqc                                            [DEBUG  ]  Analysing modules: fastp, bowtie2, picard, fastq_screen, custom_content, conpair, peddy, methylQA, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rsem, rseqc, busco, goleft_indexcov, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, homer, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, dedup, damageprofiler, prokka, samblaster, samtools, bamtools, jellyfish, vcftools, longranger, stacks, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie1, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, trimmomatic, skewer, sortmerna, biobloomtools, afterqc, fastqc, minionqc, clusterflow, bcl2fastq, interop, flash
+[2020-08-06 15:40:37,646] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/3004.1.all.q/tmpzp7l59n3
+[2020-08-06 15:40:37,872] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp_C1_.html
+[2020-08-06 15:40:37,877] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp_C2_.html
+[2020-08-06 15:40:37,881] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp_C3_.html
+[2020-08-06 15:40:37,882] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp_D1_.html
+[2020-08-06 15:40:37,884] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp_D2_.html
+[2020-08-06 15:40:37,886] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp_D3_.html
+[2020-08-06 15:40:37,889] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp_DF1_.html
+[2020-08-06 15:40:37,891] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp_DF2_.html
+[2020-08-06 15:40:37,892] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp_DF3_.html
+[2020-08-06 15:40:37,896] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp_F1_.html
+[2020-08-06 15:40:37,898] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp_F2_.html
+[2020-08-06 15:40:37,900] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp_F3_.html
+[2020-08-06 15:40:37,901] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2020-08-06 15:40:38,787] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2020-08-06 15:40:39,411] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2020-08-06 15:40:40,000] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2020-08-06 15:40:40,557] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2020-08-06 15:40:41,114] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2020-08-06 15:40:41,668] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2020-08-06 15:40:42,225] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2020-08-06 15:40:42,786] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2020-08-06 15:40:43,341] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2020-08-06 15:40:43,898] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2020-08-06 15:40:44,453] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: qualimapReport.html
+[2020-08-06 15:40:45,952] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C1_.sorted_unmap_all_2_screen.html
+[2020-08-06 15:40:45,956] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C1_.sorted_unmap_all_1_screen.html
+[2020-08-06 15:40:45,965] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C2_.sorted_unmap_all_1_screen.html
+[2020-08-06 15:40:45,966] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C2_.sorted_unmap_all_2_screen.html
+[2020-08-06 15:40:45,970] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3_.sorted_unmap_all_2_screen.html
+[2020-08-06 15:40:45,971] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: C3_.sorted_unmap_all_1_screen.html
+[2020-08-06 15:40:45,979] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D1_.sorted_unmap_all_1_screen.html
+[2020-08-06 15:40:45,983] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D1_.sorted_unmap_all_2_screen.html
+[2020-08-06 15:40:45,990] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D2_.sorted_unmap_all_1_screen.html
+[2020-08-06 15:40:45,992] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D2_.sorted_unmap_all_2_screen.html
+[2020-08-06 15:40:45,993] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D3_.sorted_unmap_all_2_screen.html
+[2020-08-06 15:40:45,996] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: D3_.sorted_unmap_all_1_screen.html
+[2020-08-06 15:40:46,001] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: DF1_.sorted_unmap_all_2_screen.html
+[2020-08-06 15:40:46,002] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: DF1_.sorted_unmap_all_1_screen.html
+[2020-08-06 15:40:46,009] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: DF2_.sorted_unmap_all_2_screen.html
+[2020-08-06 15:40:46,013] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: DF2_.sorted_unmap_all_1_screen.html
+[2020-08-06 15:40:46,018] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: DF3_.sorted_unmap_all_1_screen.html
+[2020-08-06 15:40:46,020] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: DF3_.sorted_unmap_all_2_screen.html
+[2020-08-06 15:40:46,027] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F1_.sorted_unmap_all_1_screen.html
+[2020-08-06 15:40:46,028] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F1_.sorted_unmap_all_2_screen.html
+[2020-08-06 15:40:46,038] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F2_.sorted_unmap_all_2_screen.html
+[2020-08-06 15:40:46,042] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F2_.sorted_unmap_all_1_screen.html
+[2020-08-06 15:40:46,043] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F3_.sorted_unmap_all_2_screen.html
+[2020-08-06 15:40:46,049] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: F3_.sorted_unmap_all_1_screen.html
+[2020-08-06 15:40:46,386] multiqc.modules.fastp.fastp                        [INFO   ]  Found 12 reports
+[2020-08-06 15:40:46,436] multiqc.modules.bowtie2.bowtie2                    [INFO   ]  Found 12 reports
+[2020-08-06 15:40:46,457] multiqc.modules.picard.picard                      [INFO   ]  Found 12 MarkDuplicates reports
+[2020-08-06 15:40:46,466] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Duplicate sample name found! Overwriting: C1
+[2020-08-06 15:40:46,471] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Duplicate sample name found! Overwriting: C2
+[2020-08-06 15:40:46,475] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Duplicate sample name found! Overwriting: C3
+[2020-08-06 15:40:46,480] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Duplicate sample name found! Overwriting: D1
+[2020-08-06 15:40:46,484] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Duplicate sample name found! Overwriting: D2
+[2020-08-06 15:40:46,488] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Duplicate sample name found! Overwriting: D3
+[2020-08-06 15:40:46,492] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Duplicate sample name found! Overwriting: DF1
+[2020-08-06 15:40:46,497] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Duplicate sample name found! Overwriting: DF2
+[2020-08-06 15:40:46,501] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Duplicate sample name found! Overwriting: DF3
+[2020-08-06 15:40:46,506] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Duplicate sample name found! Overwriting: F1
+[2020-08-06 15:40:46,510] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Duplicate sample name found! Overwriting: F2
+[2020-08-06 15:40:46,514] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Duplicate sample name found! Overwriting: F3
+[2020-08-06 15:40:46,515] multiqc.modules.fastq_screen.fastq_screen          [INFO   ]  Found 12 reports
+[2020-08-06 15:40:46,522] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2020-08-06 15:40:46,525] multiqc                                            [DEBUG  ]  No samples found: conpair
+[2020-08-06 15:40:46,529] multiqc                                            [DEBUG  ]  No samples found: peddy
+[2020-08-06 15:40:46,533] multiqc                                            [DEBUG  ]  No samples found: methylQA
+[2020-08-06 15:40:46,536] multiqc                                            [DEBUG  ]  No samples found: phantompeakqualtools
+[2020-08-06 15:40:47,116] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Using default Qualimap thresholds: 1, 5, 10, 30, 50
+[2020-08-06 15:40:47,500] multiqc.modules.qualimap.qualimap                  [INFO   ]  Found 12 BamQC reports
+[2020-08-06 15:40:47,562] multiqc.modules.qualimap.qualimap                  [INFO   ]  Found 12 RNASeq reports
+[2020-08-06 15:40:47,565] multiqc                                            [DEBUG  ]  No samples found: preseq
+[2020-08-06 15:40:47,569] multiqc                                            [DEBUG  ]  No samples found: quast
+[2020-08-06 15:40:47,572] multiqc                                            [DEBUG  ]  No samples found: qorts
+[2020-08-06 15:40:47,575] multiqc                                            [DEBUG  ]  No samples found: rna_seqc
+[2020-08-06 15:40:47,579] multiqc                                            [DEBUG  ]  No samples found: rsem
+[2020-08-06 15:40:47,585] multiqc                                            [DEBUG  ]  No samples found: rseqc
+[2020-08-06 15:40:47,588] multiqc                                            [DEBUG  ]  No samples found: busco
+[2020-08-06 15:40:47,591] multiqc                                            [DEBUG  ]  No samples found: goleft_indexcov
+[2020-08-06 15:40:47,595] multiqc                                            [DEBUG  ]  No samples found: disambiguate
+[2020-08-06 15:40:47,598] multiqc                                            [DEBUG  ]  No samples found: supernova
+[2020-08-06 15:40:47,606] multiqc                                            [DEBUG  ]  No samples found: deeptools
+[2020-08-06 15:40:47,609] multiqc                                            [DEBUG  ]  No samples found: sargasso
+[2020-08-06 15:40:47,612] multiqc                                            [DEBUG  ]  No samples found: verifybamid
+[2020-08-06 15:40:47,616] multiqc                                            [DEBUG  ]  No samples found: mirtrace
+[2020-08-06 15:40:47,619] multiqc                                            [DEBUG  ]  No samples found: happy
+[2020-08-06 15:40:47,623] multiqc                                            [DEBUG  ]  No samples found: homer
+[2020-08-06 15:40:47,627] multiqc                                            [DEBUG  ]  No samples found: macs2
+[2020-08-06 15:40:47,630] multiqc                                            [DEBUG  ]  No samples found: theta2
+[2020-08-06 15:40:47,633] multiqc                                            [DEBUG  ]  No samples found: snpeff
+[2020-08-06 15:40:47,638] multiqc                                            [DEBUG  ]  No samples found: gatk
+[2020-08-06 15:40:47,641] multiqc                                            [DEBUG  ]  No samples found: htseq
+[2020-08-06 15:40:47,645] multiqc                                            [DEBUG  ]  No samples found: bcftools
+[2020-08-06 15:40:47,653] multiqc.modules.featureCounts.feature_counts       [INFO   ]  Found 12 reports
+[2020-08-06 15:40:47,657] multiqc                                            [DEBUG  ]  No samples found: dedup
+[2020-08-06 15:40:47,660] multiqc                                            [DEBUG  ]  No samples found: damageprofiler
+[2020-08-06 15:40:47,664] multiqc                                            [DEBUG  ]  No samples found: prokka
+[2020-08-06 15:40:47,667] multiqc                                            [DEBUG  ]  No samples found: samblaster
+[2020-08-06 15:40:47,672] multiqc                                            [DEBUG  ]  No samples found: samtools
+[2020-08-06 15:40:47,675] multiqc                                            [DEBUG  ]  No samples found: bamtools
+[2020-08-06 15:40:47,678] multiqc                                            [DEBUG  ]  No samples found: jellyfish
+[2020-08-06 15:40:47,683] multiqc                                            [DEBUG  ]  No samples found: vcftools
+[2020-08-06 15:40:47,686] multiqc                                            [DEBUG  ]  No samples found: longranger
+[2020-08-06 15:40:47,690] multiqc                                            [DEBUG  ]  No samples found: stacks
+[2020-08-06 15:40:47,697] multiqc                                            [DEBUG  ]  No samples found: bbmap
+[2020-08-06 15:40:47,700] multiqc                                            [DEBUG  ]  No samples found: bismark
+[2020-08-06 15:40:47,704] multiqc                                            [DEBUG  ]  No samples found: biscuit
+[2020-08-06 15:40:47,708] multiqc                                            [DEBUG  ]  No samples found: hicexplorer
+[2020-08-06 15:40:47,711] multiqc                                            [DEBUG  ]  No samples found: hicup
+[2020-08-06 15:40:47,714] multiqc                                            [DEBUG  ]  No samples found: hicpro
+[2020-08-06 15:40:47,718] multiqc                                            [DEBUG  ]  No samples found: salmon
+[2020-08-06 15:40:47,721] multiqc                                            [DEBUG  ]  No samples found: kallisto
+[2020-08-06 15:40:47,724] multiqc                                            [DEBUG  ]  No samples found: slamdunk
+[2020-08-06 15:40:47,728] multiqc                                            [DEBUG  ]  No samples found: star
+[2020-08-06 15:40:47,731] multiqc                                            [DEBUG  ]  No samples found: hisat2
+[2020-08-06 15:40:47,734] multiqc                                            [DEBUG  ]  No samples found: tophat
+[2020-08-06 15:40:47,737] multiqc                                            [DEBUG  ]  No samples found: bowtie1
+[2020-08-06 15:40:47,741] multiqc                                            [DEBUG  ]  No samples found: kat
+[2020-08-06 15:40:47,744] multiqc                                            [DEBUG  ]  No samples found: leehom
+[2020-08-06 15:40:47,747] multiqc                                            [DEBUG  ]  No samples found: adapterRemoval
+[2020-08-06 15:40:47,750] multiqc                                            [DEBUG  ]  No samples found: clipandmerge
+[2020-08-06 15:40:47,754] multiqc                                            [DEBUG  ]  No samples found: cutadapt
+[2020-08-06 15:40:47,757] multiqc                                            [DEBUG  ]  No samples found: flexbar
+[2020-08-06 15:40:47,760] multiqc                                            [DEBUG  ]  No samples found: trimmomatic
+[2020-08-06 15:40:47,763] multiqc                                            [DEBUG  ]  No samples found: skewer
+[2020-08-06 15:40:47,767] multiqc                                            [DEBUG  ]  No samples found: sortmerna
+[2020-08-06 15:40:47,770] multiqc                                            [DEBUG  ]  No samples found: biobloomtools
+[2020-08-06 15:40:47,773] multiqc                                            [DEBUG  ]  No samples found: afterqc
+[2020-08-06 15:40:47,777] multiqc                                            [DEBUG  ]  No samples found: fastqc
+[2020-08-06 15:40:47,780] multiqc                                            [DEBUG  ]  No samples found: minionqc
+[2020-08-06 15:40:47,783] multiqc                                            [DEBUG  ]  No samples found: clusterflow
+[2020-08-06 15:40:47,787] multiqc                                            [DEBUG  ]  No samples found: bcl2fastq
+[2020-08-06 15:40:47,790] multiqc                                            [DEBUG  ]  No samples found: interop
+[2020-08-06 15:40:47,794] multiqc                                            [DEBUG  ]  No samples found: flash
+[2020-08-06 15:40:47,880] multiqc                                            [INFO   ]  Compressing plot data
+[2020-08-06 15:40:49,687] multiqc                                            [WARNING]  Deleting    : tfr_mqc/report.html   (-f was specified)
+[2020-08-06 15:40:49,692] multiqc                                            [WARNING]  Deleting    : tfr_mqc/report   (-f was specified)
+[2020-08-06 15:40:49,746] multiqc                                            [INFO   ]  Report      : tfr_mqc/report.html
+[2020-08-06 15:40:49,746] multiqc                                            [INFO   ]  Data        : tfr_mqc/report
+[2020-08-06 15:40:49,746] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/3004.1.all.q/tmpzp7l59n3/multiqc_data/multiqc_fastp.txt' to '/cluster/majf_lab/mtinti/Calvin/TfrKD/tfr_mqc/report'
+[2020-08-06 15:40:49,762] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/3004.1.all.q/tmpzp7l59n3/multiqc_data/multiqc_bowtie2.txt' to '/cluster/majf_lab/mtinti/Calvin/TfrKD/tfr_mqc/report'
+[2020-08-06 15:40:49,763] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/3004.1.all.q/tmpzp7l59n3/multiqc_data/multiqc_picard_dups.txt' to '/cluster/majf_lab/mtinti/Calvin/TfrKD/tfr_mqc/report'
+[2020-08-06 15:40:49,764] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/3004.1.all.q/tmpzp7l59n3/multiqc_data/multiqc_fastq_screen.txt' to '/cluster/majf_lab/mtinti/Calvin/TfrKD/tfr_mqc/report'
+[2020-08-06 15:40:49,764] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/3004.1.all.q/tmpzp7l59n3/multiqc_data/multiqc_featureCounts.txt' to '/cluster/majf_lab/mtinti/Calvin/TfrKD/tfr_mqc/report'
+[2020-08-06 15:40:49,765] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/3004.1.all.q/tmpzp7l59n3/multiqc_data/multiqc_general_stats.txt' to '/cluster/majf_lab/mtinti/Calvin/TfrKD/tfr_mqc/report'
+[2020-08-06 15:40:49,766] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/3004.1.all.q/tmpzp7l59n3/multiqc_data/multiqc_sources.txt' to '/cluster/majf_lab/mtinti/Calvin/TfrKD/tfr_mqc/report'
+[2020-08-06 15:40:49,766] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/3004.1.all.q/tmpzp7l59n3/multiqc_data/multiqc_data.json' to '/cluster/majf_lab/mtinti/Calvin/TfrKD/tfr_mqc/report'
+[2020-08-06 15:40:49,871] multiqc                                            [INFO   ]  MultiQC complete
