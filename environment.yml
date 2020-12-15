@@ -65,4 +65,5 @@ dependencies:
   - freebayes
   - sra-tools
   - deeptools
+  - upsetplot
 prefix: /homes/mtinti/miniconda3/envs/ritSeq
