@@ -3,6 +3,7 @@ channels:
   - bioconda
   - conda-forge
   - defaults
+  - yuxiang
 dependencies:
   - subread
   - fastqc
