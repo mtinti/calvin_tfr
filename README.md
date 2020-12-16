@@ -15,10 +15,10 @@
     
 ![title](Figures/Tb927.11.12100_paperFig.png)
 
-'''bash
+```bash
 ├── C1
 │   ├── res
 │   │   └── C1
 │   │       └── counts.txt
 │   └── s_C1.sh
-'''
+```
