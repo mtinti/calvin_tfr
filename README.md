@@ -15,6 +15,8 @@
     
 ![title](Figures/Tb927.11.12100_paperFig.png)
 
+### Folder structure
+
 ```bash
 ├── C1
 │   ├── res
@@ -22,3 +24,5 @@
 │   │       └── counts.txt
 │   └── s_C1.sh
 ```
+
+Each sample folder has the same structure. The counts.txt file contains the RNA-seq count data and the .sh file contains the command issued to the cluster for the mapping / counting / QC pipline.
