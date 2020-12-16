@@ -26,3 +26,5 @@
 ```
 
 Each sample folder has the same structure. The counts.txt file contains the RNA-seq count data and the .sh file contains the commands issued to the cluster for the mapping / counting / QC pipline.
+
+The notebook FiguresPaper.ipynb can be open/run with the Binder badge and contains the code to reproduce the figures of the paper.
