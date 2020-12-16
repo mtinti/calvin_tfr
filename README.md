@@ -1,7 +1,7 @@
 ![title](static/wcar.png)
 # TbGPI3
 
-binder
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mtinti/calvin_tfr/HEAD?filepath=FiguresPaper.ipynb)
 zenodo
 
 
