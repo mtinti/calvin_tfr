@@ -25,4 +25,4 @@
 │   └── s_C1.sh
 ```
 
-Each sample folder has the same structure. The counts.txt file contains the RNA-seq count data and the .sh file contains the command issued to the cluster for the mapping / counting / QC pipline.
+Each sample folder has the same structure. The counts.txt file contains the RNA-seq count data and the .sh file contains the commands issued to the cluster for the mapping / counting / QC pipline.
