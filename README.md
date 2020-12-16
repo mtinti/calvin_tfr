@@ -14,3 +14,11 @@
     School of Life Sciences, University of Dundee
     
 ![title](Figures/Tb927.11.12100_paperFig.png)
+
+'''bash
+├── C1
+│   ├── res
+│   │   └── C1
+│   │       └── counts.txt
+│   └── s_C1.sh
+'''
