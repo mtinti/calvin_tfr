@@ -2,7 +2,7 @@
 # TbGPI3
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mtinti/calvin_tfr/HEAD?filepath=FiguresPaper.ipynb)
-zenodo
+[![DOI](https://zenodo.org/badge/285675864.svg)](https://zenodo.org/badge/latestdoi/285675864)
 
 
 # A Kinetoplastid-specific RNA Binding Protein RBP5 cooperates with the transferrin receptor to maintain iron homeostasis in *Trypanosoma brucei*
