@@ -2,7 +2,7 @@
 # RBP5
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mtinti/calvin_tfr/HEAD?filepath=FiguresPaper.ipynb)
-[![DOI](https://zenodo.org/badge/285675864.svg)](https://zenodo.org/badge/latestdoi/285675864)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4326808.svg)](https://doi.org/10.5281/zenodo.4326808)
 
 
 # A Kinetoplastid-specific RNA Binding Protein RBP5 cooperates with the transferrin receptor to maintain iron homeostasis in *Trypanosoma brucei*
